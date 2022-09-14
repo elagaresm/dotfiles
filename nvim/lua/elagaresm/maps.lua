@@ -7,6 +7,9 @@ local opts = { noremap = true, silent = true }
 -- Shorten function name
 local keymap = vim.api.nvim_set_keymap
 
+-- Paste without replacing register
+--keymap("x", "<leader>p", '"_dP', opts)
+
 --Remap space as leader key
 vim.g.mapleader = " "
 
